@@ -21,6 +21,7 @@
     padding: 20px 25px;
     border-radius: 8px;
     text-align: center;
+
 }
 
 /*Header Style */
@@ -82,6 +83,50 @@
 .banner-img{
     margin-top: 50px;
     width: 100%;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 100px;
+}
+
+/* Teams and Features Style */
+.teams{
+    display: flex;
+    align-items: center;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.our-features{
+    margin-left: 75px;
+    max-width: 537px;
+}
+
+#quick-list{
+    font-size: 2.81rem;
+    font-weight: 500;
+    color: rgba(114, 114, 114, 1);
+}
+#of-our{
+    color: rgba(19, 19, 19, 1);
+    font-size: 45px;
+    font-weight: bold;
+}
+#fratures{
+    font-size: 45px;
+    font-weight: bold;
+    color: rgba(255, 144, 14, 1);
+}
+.features-description{
+    color: rgba(114, 114, 114, 1);
+    margin-top: 24px;
+    margin-bottom: 32px;
 }
 
 
